@@ -5,6 +5,7 @@ export default class Bike implements IVehicle {
         this.getCargo();
         console.log("Iniciando trajeto de bike")
     }
+    
     getCargo(): void {
         console.log("Bike a caminho...")
     }
